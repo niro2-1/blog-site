@@ -1,8 +1,11 @@
-# blog-site
-Personal blog — static site generated from Markdown.
+## Lazy-Loading Images
 
-# Deployment Instructions
+Lazy-loading images can significantly improve your site's performance by loading images only when they are in the viewport. To implement lazy-loading in your blog:
 
-1. Build the site using the static site generator.
-2. Deploy the generated files to your web server or hosting platform.
-3. Ensure the server is configured to serve the static files correctly.
+1. Use the `loading="lazy"` attribute in your `<img>` tags:
+   ```html
+   <img src="image.jpg" alt="Description" loading="lazy">
+   ```
+2. For browsers that do not support this attribute, consider using a JavaScript library like [lazysizes](https://github.com/aFarkas/lazysizes) for enhanced functionality.
+
+3. Ensure that your images are optimized for the web to further enhance loading times.
