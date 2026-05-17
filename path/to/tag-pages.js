@@ -8,4 +8,4 @@ function paginatePosts(posts) {
 
 // Example usage
 const allPosts = [...]; // Fetch all posts
-const paginatedPosts = paginatePosts(allPosts);
+const paginatedPosts = paginatePosts(allPosts); // Posts limited to 20 per page
