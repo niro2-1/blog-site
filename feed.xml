@@ -1,0 +1,13 @@
+<rss version="2.0">
+<channel>
+  <title>Your Blog Title</title>
+  <link>http://yourblog.com</link>
+  <description>Your blog description.</description>
+  <item>
+    <title>Post Title</title>
+    <link>http://yourblog.com/post-url</link>
+    <description>Summary of the post.</description>
+    <pubDate>Mon, 01 Jan 2023 00:00:00 GMT</pubDate>
+  </item>
+</channel>
+</rss>
