@@ -1,0 +1,14 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Invalidate CloudFront
+        uses: jakejarvis/cloudfront-invalidate@v1.0.0
+        with:
+          distribution-id: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
+          paths: /index.html,/blog/*
