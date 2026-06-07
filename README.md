@@ -1,7 +1,7 @@
 # blog-site
 Personal blog — static site generated from Markdown.
 
-# Deployment Instructions
+## Deployment Instructions
 
 1. Build the site using the static site generator. 
    - Ensure you have the necessary dependencies installed and follow the generator's documentation for the build process.
@@ -13,3 +13,7 @@ Personal blog — static site generated from Markdown.
 ## Feed.xml
 
 A `feed.xml` file has been added to the `docs` folder for RSS feed support. Make sure your deployment includes this file and it is accessible at the correct URL.
+
+## New Section
+
+This is a new section added to the README.
