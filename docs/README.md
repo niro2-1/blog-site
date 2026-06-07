@@ -1,0 +1,1 @@
+## Pagination for Tag Pages\n\nPagination has been added to tag pages (e.g., /tags/ml) to display 20 posts per page as requested in issue #5.
