@@ -1,6 +1,9 @@
 # blog-site
 Personal blog — static site generated from Markdown.
 
+## New Section
+This section was added as part of a test commit.
+
 # Deployment Instructions
 
 1. Build the site using the static site generator. 
