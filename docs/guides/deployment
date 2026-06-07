@@ -1,3 +1,5 @@
 # Deployment Guide
 
 Coming soon...
+
+**Note:** When dealing with filenames with spaces or special characters, use `xargs -0` to safely pass them to other commands.
